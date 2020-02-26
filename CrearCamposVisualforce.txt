@@ -26,3 +26,4 @@ Ejemplo:
 10. Next
 11. (Has creado el primer campo) "Save & New" si necesitas añadir mas campos, si ya has terminado de añadir todos, dale a "Save"
 12. Vuelve al código y pushea los cambios con Ctrl+Shift+P --> Push Source to Default Scratch Org and Override Conflicts
+13. Si no funciona el push aguanta las lágrimas y procura tener el código bien pese a no tener los objetos creados en tu Scratch Org, ya que eso es para que tú lo veas, él tendrá que crearse sus propios objetos.
