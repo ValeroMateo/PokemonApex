@@ -1,0 +1,28 @@
+No te tiene que dejar hacer push porque no encuentra el objeto que le estás pasando.
+
+
+1. Abro el scratch con Ctrl+Shift+P --> Open Default Org
+2. Pongo "object" en el buscador de la izquierda y entro a "Object Manager"
+3. Click en "Create" (arriba a la derecha) y luego en "Custom object"
+4. Pones los 3 primeros campos (el segundo en plural) y marcas el campo allow search (antepenúltimo cuadrado)
+
+Ejemplo:
+	Label: POKEMON
+	Plural Label: POKEMONS
+	Object Name: POKEMON
+	*Marca el penultimo cuadradito*
+
+5. "Save"
+6. "Fields & relationships" (a la izquierda)
+7. "New"
+8. Pongo el tipo de campo y le doy a "Next"
+9. Pongo el nombre (mira el ejemplo de debajo) y le doy a "Next"
+
+Ejemplo:
+	Field Label: POKEMON_Name
+	Length: 30
+	Field Name: POKEMON_Name
+
+10. Next
+11. (Has creado el primer campo) "Save & New" si necesitas añadir mas campos, si ya has terminado de añadir todos, dale a "Save"
+12. Vuelve al código y pushea los cambios con Ctrl+Shift+P --> Push Source to Default Scratch Org and Override Conflicts
